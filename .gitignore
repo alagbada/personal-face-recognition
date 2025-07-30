@@ -1,0 +1,11 @@
+lib/
+bin/
+data/
+lib64/
+logs/
+model/
+include/
+test/
+share/
+*.cfg
+*.keras
