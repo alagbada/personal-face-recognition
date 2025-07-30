@@ -1,0 +1,53 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.mainsection{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightsection {
+  width: 50%;
+}
+
+.leftsection {
+  width: 50%;
+  display: block;
+}
+
+.successNotification {
+  width: 70%;
+  margin: 1% auto;
+  color: green;
+  font-weight: 400;
+  padding: 2% 0;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 225, 0, 0.4);
+  background-color: rgba(0, 225,0, 0.06);
+}
+
+.failedNotification {
+  width: 70%;
+  margin: 1% auto;
+  color: red;
+  border-radius: 20px;
+  font-weight: 400;
+  padding: 2% 0;
+  border: 1px solid rgba(225, 0,0, 0.4);
+  background-color: rgba(225, 0,0, 0.06);
+}
