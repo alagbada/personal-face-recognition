@@ -8,13 +8,13 @@ from PIL import Image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img
 
 
-image_path = '/home/user/Downloads/ai_proj/test/d33.jpg'
+image_path = '/put-the-right-path-here/test/a.jpg'
 test_image = Image.open(image_path)
 test_image = test_image.resize((200, 200))
 test_image = np.asarray(test_image)
 test_image = np.expand_dims(test_image, axis = 0)
 
-model_path = '/home/user/Downloads/ai_proj/model/new_model/my_face_classifier_model'
+model_path = '/put-the-right-path-here/model/my_face_classifier_model'
 new_model = keras.models.load_model(model_path)
 
 new_model.summary()

@@ -13,7 +13,7 @@ def resize(img_name, folder_path):
     n_img = Image.fromarray(test_image)
     n_img.save(join(folder_path, img_name))
 
-image_path = '/home/user/Downloads/ai_proj/data/train/temitope/'
+image_path = '/put-the-right-path-here/data/train/class1/'
 all_images = [f for f in listdir(image_path) if isfile(join(image_path, f))]
 
 # Test Image

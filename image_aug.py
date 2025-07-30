@@ -123,7 +123,7 @@ def random_zoom(img_name, folder_path):
 
     print('random zoom done for ' + img_name)
 
-image_path = '/home/user/Downloads/ai_proj/data/train/temitope/'
+image_path = '/put-the-right-path-here/data/train/class1/'
 all_images = [f for f in listdir(image_path) if isfile(join(image_path, f))]
 
 # Test Image

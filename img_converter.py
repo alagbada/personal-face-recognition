@@ -13,11 +13,8 @@ def convert_to_jpg(png_path, jpg_path):
     except Exception as e:
         print(f'an error occured: {e}')
 
-#image_path = '/home/user/Downloads/ai_proj/test/c2.png'
-#image_jpg_path = '/home/user/Downloads/ai_proj/test/c2.jpg'
-
-image_path = '/home/user/Pictures/Screenshots/'
-new_image_path = '/home/user/Downloads/ai_proj/data/train/others/'
+image_path = '/put-the-right-path-here/default/'
+new_image_path = '/put-the-right-path-here/data/train/class1/'
 all_images = [f for f in listdir(image_path) if isfile(join(image_path, f))]
 
 # Test Image
